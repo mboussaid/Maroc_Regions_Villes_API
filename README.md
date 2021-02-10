@@ -25,6 +25,21 @@ node server.js
 
 > How To use the API 
 
-http://localhost:8080/api/regions ===> Regions
-http://localhost:8080/api/villes ===> Villes
-http://localhost:8080/api/villes/{regionID} ===> Villes of Region with the id regionID
+<table>
+<tr>
+	<th>URL </th>
+	<th>Response</th>
+</tr>
+<tr>
+	<td>http://localhost:8080/api/regions</td>
+	<td>array of regions</td>
+	</tr>
+	<tr>
+	<td>http://localhost:8080/api/villes </td>
+	<td>array of villes</td>
+	</tr>
+		<tr>
+	<td>http://localhost:8080/api/villes/{regionID}</td>
+	<td>array of  Villes that have the same  regionID</td>
+	</tr>
+	</table>
